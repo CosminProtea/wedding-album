@@ -1397,3 +1397,15 @@ body {
     }
 
 }
+.album-cover{
+    width:280px;
+    height:280px;
+}
+.vinyl{
+    width:220px;
+
+    left:50%;
+    transform:translateX(-50%);
+
+    top:180px;
+}
