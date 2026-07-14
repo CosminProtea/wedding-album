@@ -476,15 +476,10 @@ mix-blend-mode: multiply;
 
 
 .subtitle{
-
-    margin-top:10px;
-
+    font-size:8px;
     letter-spacing:5px;
 
-    font-size:07px;
-
-    color:rgba(255,255,255,.75);
-
+    margin-bottom:14px;
 }
 
 .cover-content h1{
@@ -516,7 +511,6 @@ mix-blend-mode: multiply;
 
 }
 .cover-content{
-
     position:absolute;
     inset:0;
 
@@ -528,9 +522,7 @@ mix-blend-mode: multiply;
 
     text-align:center;
 
-    padding:20px;
-
-    transform:translateY(-0px);
+    padding:24px;
 }
 
 .date{
