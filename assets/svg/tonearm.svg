@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="320"
+     height="260"
+     viewBox="0 0 320 260">
+
+    <defs>
+
+        <linearGradient id="metal"
+                        x1="0%"
+                        y1="0%"
+                        x2="100%"
+                        y2="0%">
+
+            <stop offset="0%" stop-color="#f4f4f4"/>
+            <stop offset="20%" stop-color="#cfcfcf"/>
+            <stop offset="50%" stop-color="#8f8f8f"/>
+            <stop offset="80%" stop-color="#d9d9d9"/>
+            <stop offset="100%" stop-color="#707070"/>
+
+        </linearGradient>
+
+        <radialGradient id="pivot">
+
+            <stop offset="0%" stop-color="#efefef"/>
+            <stop offset="100%" stop-color="#5b5b5b"/>
+
+        </radialGradient>
+
+        <filter id="shadow">
+
+            <feDropShadow
+                dx="0"
+                dy="3"
+                stdDeviation="4"
+                flood-color="#000"
+                flood-opacity=".35"/>
+
+        </filter>
+
+    </defs>
+
+    <!-- Pivot -->
+
+    <circle
+        cx="42"
+        cy="42"
+        r="24"
+        fill="url(#pivot)"
+        filter="url(#shadow)"/>
+
+    <circle
+        cx="42"
+        cy="42"
+        r="8"
+        fill="#4d4d4d"/>
+
+    <!-- Counterweight -->
+
+    <rect
+        x="5"
+        y="33"
+        width="22"
+        height="18"
+        rx="5"
+        fill="#444"/>
+
+    <!-- Arm -->
+
+    <rect
+
+        x="42"
+        y="38"
+
+        width="185"
+        height="8"
+
+        rx="4"
+
+        fill="url(#metal)"
+
+        transform="rotate(24 42 42)"
+
+        filter="url(#shadow)"/>
+
+    <!-- Headshell -->
+
+    <g transform="translate(213 112) rotate(24)">
+
+        <rect
+
+            width="32"
+            height="18"
+
+            rx="3"
+
+            fill="#1f1f1f"/>
+
+        <circle cx="6" cy="5" r="1.4" fill="#888"/>
+        <circle cx="26" cy="5" r="1.4" fill="#888"/>
+
+    </g>
+
+    <!-- Needle -->
+
+    <line
+
+        x1="240"
+        y1="127"
+
+        x2="252"
+        y2="145"
+
+        stroke="#dedede"
+
+        stroke-width="1"/>
+
+</svg>
