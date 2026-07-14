@@ -470,7 +470,7 @@ mix-blend-mode: multiply;
     letter-spacing:6px;
     color:var(--gold);
 
-    margin-bottom:0px;
+    margin-bottom:5px;
 }
 
 
@@ -479,7 +479,7 @@ mix-blend-mode: multiply;
     font-size:8px;
     letter-spacing:5px;
 
-    margin-bottom:14px;
+    margin-bottom:5px;
 }
 
 .cover-content h1{
