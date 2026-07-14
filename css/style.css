@@ -466,17 +466,11 @@ mix-blend-mode: multiply;
 =========================== */
 
 .mono{
-
-    font-family:'Cormorant Garamond',serif;
-
-    font-size:10px;
-
-    letter-spacing:5px;
-
+    font-size:11px;
+    letter-spacing:6px;
     color:var(--gold);
 
-    margin-top:-15px;
-
+    margin-bottom:0px;
 }
 
 
