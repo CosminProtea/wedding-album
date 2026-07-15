@@ -6,6 +6,83 @@
 @import url("animations.css");
 @import url("responsive.css");
 
+/* ===================================================
+   WEDDING ALBUM V2.0
+   Cosmin & Andreea
+=================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+
+    --gold:#d9c29a;
+    --green:#17362d;
+    --green-dark:#0d211c;
+    --background:#111614;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--background);
+
+    overflow-x:hidden;
+
+    font-family:'Montserrat',sans-serif;
+
+    color:white;
+
+}
+
+/* ===========================
+        BACKGROUND
+=========================== */
+
+.background{
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+
+    radial-gradient(
+        circle at 50% 10%,
+        rgba(86,120,100,.35),
+        transparent 60%),
+
+    linear-gradient(
+        180deg,
+        #1a2b27,
+        #0f1715);
+
+}
+
+.background::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:url("../assets/textures/paper.jpg");
+
+    opacity:.08;
+
+    mix-blend-mode:overlay;
+
+}
 
 /* ===========================
         HERO
