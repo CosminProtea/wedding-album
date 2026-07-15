@@ -12,6 +12,7 @@ const vinyl = document.getElementById("vinyl");
 const button = document.getElementById("startButton");
 const music = document.getElementById("backgroundMusic");
 const musicToggle = document.getElementById("musicToggle");
+console.log(musicToggle);
 const vinylSound = document.getElementById("vinylSound");
 
 let isPlaying = false;
@@ -470,22 +471,22 @@ ScrollTrigger.create({
     }
 
 });
-// ==============================
-// MUSIC TOGGLE
-// ==============================
-
 musicToggle.addEventListener("click", () => {
+
+    console.log("CLICK");
 
     if (music.paused) {
 
-        music.play();
+        console.log("PLAY");
 
+        music.play();
         musicToggle.textContent = "🔊";
 
     } else {
 
-        music.pause();
+        console.log("PAUSE");
 
+        music.pause();
         musicToggle.textContent = "🔇";
 
     }
