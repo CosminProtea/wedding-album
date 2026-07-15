@@ -1,0 +1,149 @@
+/* ===========================
+      TRACK SYSTEM
+=========================== */
+
+.track-section{
+
+    min-height:100vh;
+
+    padding:140px 0;
+
+    position:relative;
+
+    z-index:5;
+
+}
+.track{
+
+    max-width:720px;
+
+    margin:140px auto;
+
+    padding:55px 60px;
+
+    background:rgba(255,255,255,.025);
+
+    border:1px solid rgba(185,151,91,.18);
+
+    border-radius:18px;
+
+    backdrop-filter:blur(8px);
+
+    position:relative;
+
+    transition:all .45s ease;
+
+    overflow:hidden;
+
+}
+.track::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:280px;
+    height:280px;
+
+    top:-160px;
+    right:-120px;
+
+    border-radius:50%;
+
+    background:radial-gradient(
+        rgba(185,151,91,.12),
+        transparent 70%
+    );
+
+    pointer-events:none;
+
+}
+
+.track:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#b9975b;
+
+    box-shadow:
+        0 25px 70px rgba(0,0,0,.35);
+
+}
+
+.track-number{
+
+    display:block;
+
+    letter-spacing:4px;
+
+    color:#b9975b;
+
+    font-size:12px;
+
+    margin-bottom:22px;
+
+    text-transform:uppercase;
+
+}
+
+.track h2{
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:42px;
+
+    font-weight:500;
+
+    margin-bottom:20px;
+
+    color:white;
+
+}
+
+
+.track p{
+
+    font-size:17px;
+
+    line-height:1.9;
+
+    color:rgba(255,255,255,.78);
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* reduce “hard jumps” between sections */
+.track{
+
+    max-width:700px;
+
+    margin:50px auto;
+
+    padding:45px;
+
+    border:1px solid rgba(255,255,255,.12);
+
+    background:rgba(255,255,255,.02);
+
+    backdrop-filter:blur(3px);
+
+    border-radius:10px;
+
+}
+.track-duration{
+
+    margin-top:35px;
+
+    color:rgba(255,255,255,.35);
+
+    letter-spacing:2px;
+
+    font-size:12px;
+
+}
