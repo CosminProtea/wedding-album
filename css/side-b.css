@@ -1,0 +1,182 @@
+/* ===========================
+   SIDE TRANSITION
+=========================== */
+
+.side-transition{
+
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    position:relative;
+
+}
+
+.transition-line{
+
+    width:160px;
+    height:1px;
+
+    background:#b9975b;
+
+    margin-bottom:35px;
+
+    opacity:.8;
+
+}
+
+.transition-side{
+
+    color:#b9975b;
+
+    font-size:12px;
+
+    letter-spacing:6px;
+
+    text-transform:uppercase;
+
+}
+
+.side-transition h2{
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:80px;
+
+    font-weight:400;
+
+    color:white;
+
+    margin:25px 0 15px;
+
+}
+
+.side-transition p{
+
+    color:rgba(255,255,255,.45);
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    font-size:13px;
+
+}
+/* ===========================
+   SIDE B
+=========================== */
+
+.side-b{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+    
+    background:
+    linear-gradient(
+        to bottom,
+        transparent,
+        rgba(255,255,255,.02),
+        transparent
+    );
+
+}
+
+
+
+
+.side-b-content{
+
+    max-width:800px;
+
+}
+
+.side-b span{
+
+    color:#b9975b;
+
+    letter-spacing:6px;
+
+    font-size:12px;
+
+}
+
+.side-b h2{
+
+    margin-top:25px;
+
+    font-size:84px;
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-weight:400;
+
+    color:white;
+
+}
+.side-b h2::after{
+
+    content:"";
+
+    display:block;
+
+    width:120px;
+
+    height:1px;
+
+    margin:30px auto 0;
+
+    background:#b9975b;
+
+}
+.last-track{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.last-track span{
+
+    color:#b9975b;
+
+    letter-spacing:6px;
+
+    font-size:12px;
+
+}
+
+.last-track h2{
+    font-size:72px;
+    line-height:1.05;
+    margin:25px 0 45px;
+}
+
+.last-track p{
+
+    color:rgba(255,255,255,.55);
+
+    letter-spacing:3px;
+
+}

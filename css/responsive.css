@@ -1,0 +1,46 @@
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+    #startButton{
+
+        margin-top:10px;
+
+        padding:12px 28px;
+
+        font-size:11px;
+
+    }
+
+
+    .hero{
+        padding:0 20px;
+        overflow:hidden;
+    }
+
+    .album{
+        width:340px;
+        height:470px;
+        margin-top:40px;
+        transform:none;
+
+        display:flex;
+        justify-content:center;
+        align-items:flex-start;
+    }
+
+}
+.album-cover{
+    width:280px;
+    height:280px;
+}
+.vinyl{
+    width:220px;
+
+    left:50%;
+    transform:translateX(-50%);
+
+    top:-65px;
+}

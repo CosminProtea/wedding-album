@@ -470,3 +470,24 @@ ScrollTrigger.create({
     }
 
 });
+// ==============================
+// MUSIC TOGGLE
+// ==============================
+
+musicToggle.addEventListener("click", () => {
+
+    if (music.paused) {
+
+        music.play();
+
+        musicToggle.textContent = "🔊";
+
+    } else {
+
+        music.pause();
+
+        musicToggle.textContent = "🔇";
+
+    }
+
+});
