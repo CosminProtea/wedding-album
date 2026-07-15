@@ -1,3 +1,11 @@
+@import url("variables.css");
+@import url("hero.css");
+@import url("tracks.css");
+@import url("side-b.css");
+@import url("countdown.css");
+@import url("animations.css");
+@import url("responsive.css");
+
 /* ===================================================
    WEDDING ALBUM V2.0
    Cosmin & Andreea
